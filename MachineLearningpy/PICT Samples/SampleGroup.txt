@@ -1,0 +1,12 @@
+Epic: Dashboard,StopCheque,MoveMoney,SecureMessaging,LostnStolenCard
+UserStory: AccountSummary,TransactionHistory,DownloadStatment,QuickMoveMoney,Me2MeDomestic,Me2NotMeDomestic
+User_Story_Priority:	Critical,High,Medium,Low
+User_StoryPoints:	1,2,3,5,8,13
+Bug_Severity:	Critical,High,Medium,Low
+Bug_Priority:	Critical,High,Medium,Low
+Environment_Fouund:	Dev,Sit,Uat,Prod
+Valid_Defect:	1,0
+
+{Epic,UserStory,User_Story_Priority} @ 3
+
+IF [Epic] = "Dashboard" THEN [UserStory] = "AccountSummary";
